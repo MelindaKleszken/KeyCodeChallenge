@@ -3,10 +3,10 @@ const keyCodeBtn = document.querySelector("#keyCode");
 const keyCharBtn = document.querySelector("#charCode");
 const main = document.querySelector("#heading");
 
-document.addEventListener("keydown", (event) => {     
+window.addEventListener("keydown", (event) => {     
     keyValueBtn.innerHTML = event.key;
     keyCodeBtn.innerHTML = event.code;
     keyCharBtn.innerHTML = event.which; 
-    main.innerHTML = event.key;
+    main.innerHTML = event.keyCode;
 })
 
