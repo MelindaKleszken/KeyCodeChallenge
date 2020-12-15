@@ -9,3 +9,4 @@ document.addEventListener("keydown", (event) => {
     keyCharBtn.innerHTML = event.which; 
     main.innerHTML = event.key;
 })
+
