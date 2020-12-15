@@ -3,7 +3,6 @@
 body{
     margin:0;
     padding:0;
-    /*background-color: lightblue;*/
     background-color: #162B32;
 }
 .container{
@@ -20,7 +19,7 @@ body{
     margin:10px;
     font-size: 120px;
     text-align: center;
-    height:120px;
+    height:150px;
 }
 
 #boxes{
@@ -61,11 +60,10 @@ body{
 
 @media (max-width: 480px) {
     #boxes{
+        display: flex;
         flex-direction: column; 
-        align-items: center;
         padding: 0;
         margin: 0;
-        width:100%;
     }
     .key{
         border:1px solid lightgray;
